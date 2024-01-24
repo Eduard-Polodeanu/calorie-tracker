@@ -285,7 +285,8 @@
             this.Controls.Add(this.groupBoxAddMeal);
             this.Controls.Add(this.groupBoxResults);
             this.Name = "MainForm";
-            this.Text = "App";
+            this.Text = "Calorie tracker";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.groupBoxResults.ResumeLayout(false);
             this.groupBoxResults.PerformLayout();
             this.groupBoxAddMeal.ResumeLayout(false);

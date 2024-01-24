@@ -99,5 +99,19 @@ namespace CalculatorCaloric
             _progressForm = new ProgressForm();
             _progressForm.ShowDialog();
         }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)   // ALT+F4 or X
+            {
+                if (MessageBox.Show("Are you sure want to exit?",
+                               "Calorie tracker",
+                                MessageBoxButtons.OKCancel,
+                                MessageBoxIcon.Information) == DialogResult.OK)
+                    Environment.Exit(0);    // exit no error
+                else
+                    e.Cancel = true;
+            }
+        }
     }
 }

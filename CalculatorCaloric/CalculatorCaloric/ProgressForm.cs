@@ -21,5 +21,10 @@ namespace CalculatorCaloric
         {
 
         }
+
+        private void ProgressForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

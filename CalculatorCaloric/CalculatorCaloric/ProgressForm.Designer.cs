@@ -49,6 +49,7 @@
             this.Controls.Add(this.button1);
             this.Name = "ProgressForm";
             this.Text = "ProgressForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ProgressForm_FormClosing);
             this.ResumeLayout(false);
 
         }
