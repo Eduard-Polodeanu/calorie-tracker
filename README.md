@@ -7,23 +7,24 @@ CalorieTracker is a C# .NET WinForms application designed to help users manage t
 
 
 Features:
-    User Authentication
-        Users can sign up with a new account or log in with existing credentials.
-        Secure storage of user login information in a database.
-    Daily Caloric Goals
-        Users can set their daily caloric intake goals.
-        The application provides real-time feedback on whether the user needs to eat more or less to meet their target calories.
-    Meal Tracking
-        Users can log their daily meals, including details like meal name, quantity, and calorie count.
-    Weight Management
-        Users can calculate the number of calories needed to gain or lose weight.
-        Options include targeting weight loss or gain over a specified period (e.g., 1kg per week, 0.5kg per week).
-    Database Storage
-        User login information and personal details are securely stored in a database.
-        Database design ensures data integrity and reliability.
+   - User Authentication
+       - Users can sign up with a new account or log in with existing credentials.
+       - Secure storage of user login information in a database.
+   - Daily Caloric Goals
+       - Users can set their daily caloric intake goals.
+       - The application provides real-time feedback on whether the user needs to eat more or less to meet their target calories.
+   - Meal Tracking
+       - Users can log their daily meals, including details like meal name, quantity, and calorie count.
+   - Weight Management
+       - Users can calculate the number of calories needed to gain or lose weight.
+       - Options include targeting weight loss or gain over a specified period (e.g., 1kg per week, 0.5kg per week).
+   - Database Storage
+       - User login information and personal details are securely stored in a database.
+       - Database design ensures data integrity and reliability.
 		
 		
 Getting Started:
+
 Prerequisites
 - .NET Framework
 - SQL Server
